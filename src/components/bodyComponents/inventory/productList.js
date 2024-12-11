@@ -1,4 +1,4 @@
-const productList =  [
+const oldProductList =  [
     {
       id: 1,
       name: "Cap",
@@ -142,4 +142,226 @@ const productList =  [
     },
   ];
 
-  export default productList;
+const productList = [
+  {
+    "id": 1,
+    "product": "Syringe",
+    "details": "Description of syringe, commonly used in medical settings.",
+    "price": 62.11,
+    "location_id": 9,
+    "supplier_id": 5,
+    "stock": 117,
+    "reorder": 14,
+    "exp_date": "2032-06-02"
+  },
+  {
+      "id": 2,
+      "product": "Bandage",
+      "details": "Description of bandage, commonly used in medical settings.",
+      "price": 120.54,
+      "location_id": 5,
+      "supplier_id": 5,
+      "stock": 975,
+      "reorder": 24,
+      "exp_date": "2033-04-24"
+  },
+  {
+      "id": 3,
+      "product": "Thermometer",
+      "details": "Description of thermometer, commonly used in medical settings.",
+      "price": 391.15,
+      "location_id": 3,
+      "supplier_id": 1,
+      "stock": 229,
+      "reorder": 44,
+      "exp_date": "2025-11-24"
+  },
+  {
+      "id": 4,
+      "product": "Stethoscope",
+      "details": "Description of stethoscope, commonly used in medical settings.",
+      "price": 139.87,
+      "location_id": 1,
+      "supplier_id": 8,
+      "stock": 10,
+      "reorder": 21,
+      "exp_date": "2029-04-11"
+  },
+  {
+      "id": 5,
+      "product": "Surgical Mask",
+      "details": "Description of surgical mask, commonly used in medical settings.",
+      "price": 398.21,
+      "location_id": 1,
+      "supplier_id": 1,
+      "stock": 984,
+      "reorder": 39,
+      "exp_date": "2027-01-11"
+  },
+  {
+      "id": 6,
+      "product": "Gloves",
+      "details": "Description of gloves, commonly used in medical settings.",
+      "price": 257.19,
+      "location_id": 8,
+      "supplier_id": 5,
+      "stock": 660,
+      "reorder": 33,
+      "exp_date": "2030-12-12"
+  },
+  {
+      "id": 7,
+      "product": "IV Drip",
+      "details": "Description of iv drip, commonly used in medical settings.",
+      "price": 123.36,
+      "location_id": 2,
+      "supplier_id": 7,
+      "stock": 207,
+      "reorder": 31,
+      "exp_date": "2027-05-09"
+  },
+  {
+      "id": 8,
+      "product": "Blood Pressure Monitor",
+      "details": "Description of blood pressure monitor, commonly used in medical settings.",
+      "price": 418.47,
+      "location_id": 2,
+      "supplier_id": 4,
+      "stock": 20,
+      "reorder": 24,
+      "exp_date": "2033-12-31"
+  },
+  {
+      "id": 9,
+      "product": "Wheelchair",
+      "details": "Description of wheelchair, commonly used in medical settings.",
+      "price": 256.43,
+      "location_id": 2,
+      "supplier_id": 6,
+      "stock": 69,
+      "reorder": 22,
+      "exp_date": "2031-10-27"
+  },
+  {
+      "id": 10,
+      "product": "Crutches",
+      "details": "Description of crutches, commonly used in medical settings.",
+      "price": 420.06,
+      "location_id": 3,
+      "supplier_id": 3,
+      "stock": 134,
+      "reorder": 40,
+      "exp_date": "2030-09-08"
+  },
+  {
+      "id": 11,
+      "product": "Oximeter",
+      "details": "Description of oximeter, commonly used in medical settings.",
+      "price": 105.77,
+      "location_id": 9,
+      "supplier_id": 1,
+      "stock": 133,
+      "reorder": 36,
+      "exp_date": "2028-06-02"
+  },
+  {
+      "id": 12,
+      "product": "Defibrillator",
+      "details": "Description of defibrillator, commonly used in medical settings.",
+      "price": 450.03,
+      "location_id": 5,
+      "supplier_id": 6,
+      "stock": 160,
+      "reorder": 13,
+      "exp_date": "2025-02-18"
+  },
+  {
+      "id": 13,
+      "product": "Scalpel",
+      "details": "Description of scalpel, commonly used in medical settings.",
+      "price": 478.66,
+      "location_id": 1,
+      "supplier_id": 1,
+      "stock": 727,
+      "reorder": 43,
+      "exp_date": "2029-06-29"
+  },
+  {
+      "id": 14,
+      "product": "Cotton Swabs",
+      "details": "Description of cotton swabs, commonly used in medical settings.",
+      "price": 492.93,
+      "location_id": 9,
+      "supplier_id": 6,
+      "stock": 375,
+      "reorder": 35,
+      "exp_date": "2025-06-10"
+  },
+  {
+      "id": 15,
+      "product": "Antiseptic Solution",
+      "details": "Description of antiseptic solution, commonly used in medical settings.",
+      "price": 370.81,
+      "location_id": 5,
+      "supplier_id": 1,
+      "stock": 816,
+      "reorder": 44,
+      "exp_date": "2026-05-01"
+  },
+  {
+      "id": 16,
+      "product": "Medical Gown",
+      "details": "Description of medical gown, commonly used in medical settings.",
+      "price": 470.47,
+      "location_id": 2,
+      "supplier_id": 3,
+      "stock": 544,
+      "reorder": 31,
+      "exp_date": "2032-12-25"
+  },
+  {
+      "id": 17,
+      "product": "ECG Machine",
+      "details": "Description of ecg machine, commonly used in medical settings.",
+      "price": 42.75,
+      "location_id": 9,
+      "supplier_id": 3,
+      "stock": 707,
+      "reorder": 45,
+      "exp_date": "2032-09-27"
+  },
+  {
+      "id": 18,
+      "product": "Surgical Table",
+      "details": "Description of surgical table, commonly used in medical settings.",
+      "price": 332.1,
+      "location_id": 4,
+      "supplier_id": 4,
+      "stock": 636,
+      "reorder": 38,
+      "exp_date": "2025-06-28"
+  },
+  {
+      "id": 19,
+      "product": "Ultrasound Gel",
+      "details": "Description of ultrasound gel, commonly used in medical settings.",
+      "price": 289.21,
+      "location_id": 8,
+      "supplier_id": 5,
+      "stock": 508,
+      "reorder": 22,
+      "exp_date": "2026-04-27"
+  },
+  {
+      "id": 20,
+      "product": "Hand Sanitizer",
+      "details": "Description of hand sanitizer, commonly used in medical settings.",
+      "price": 64.51,
+      "location_id": 1,
+      "supplier_id": 8,
+      "stock": 284,
+      "reorder": 21,
+      "exp_date": "2030-09-13"
+  }
+];
+export default productList;

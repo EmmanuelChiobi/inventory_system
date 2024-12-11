@@ -1,8 +1,8 @@
 import productList from "../inventory/productList";
 
 const customer = {
-    firstName: "ADMI",
-    lastName: "ZAKARYAE",
+    firstName: "Test",
+    lastName: "User",
     position: "Software Engineer",
     mobile: "+212 6 51 88 61 51",
   };

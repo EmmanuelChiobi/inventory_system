@@ -1,21 +1,27 @@
 import { Component } from "react";
 import { Avatar, Box, Typography } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
-import customers from "./Customers";
-export default class CustomerList extends Component {
+import suppliers from "./Suppliers";
+export default class SupplierList extends Component {
   render() {
     const columns = [
       {
         field: "id",
-        headerName: "ID",
+        headerName: "Supplier ID",
         width: 90,
-        description: "id of the product",
+        description: "id of the supplier",
+      },
+      {
+        field: "company",
+        headerName: "Company",
+        width: 300,
+        description: "supplier company",
       },
       {
         field: "fullname",
-        headerName: "Full Name",
+        headerName: "Main Contact Name",
         width: 200,
-        description: "customer full name",
+        description: "full name of contact",
         renderCell: (params) => {
           return (
             <>
@@ -33,6 +39,7 @@ export default class CustomerList extends Component {
           );
         },
       },
+      /*
       {
         field: "orderNumber",
         headerName: "Number Of Order",
@@ -60,14 +67,27 @@ export default class CustomerList extends Component {
           return history;
         },
       },
+      */
+      {
+        field: "email",
+        headerName: "Main Contact Email",
+        width: 300,
+        description: "main contact email for supplier",
+      },
       {
         field: "mobile",
-        headerName: "Mobile",
+        headerName: "Main Contact Number",
         width: 300,
-        description: "total amount of the order",
+        description: "main contact number for supplier",
+      },
+      {
+        field: "is_active",
+        headerName: "Active",
+        width: 90,
+        description: "is the supplier active",
       },
     ];
-    const rows = customers;
+    const rows = suppliers;
     return (
       <Box
         sx={{

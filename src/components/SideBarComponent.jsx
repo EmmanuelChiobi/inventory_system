@@ -21,6 +21,9 @@ import {
   CardTravelOutlined,
   TrendingUpOutlined,
   PeopleAltOutlined,
+  LocalHotelOutlined,
+  SwapHorizOutlined,
+  CorporateFareOutlined
 } from "@mui/icons-material";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 
@@ -51,12 +54,24 @@ export default function SideBarComponent() {
       component: <CardTravelOutlined fontSize="medium" color="primary" />,
     },
     {
-      title: "Customers",
+      title: "Users",
       component: <PeopleAltOutlined fontSize="medium" color="primary" />,
+    },
+    {
+      title: "Patients",
+      component: <LocalHotelOutlined fontSize="medium" color="primary" />,
     },
     {
       title: "Revenue",
       component: <MonetizationOnOutlined fontSize="medium" color="primary" />,
+    },
+    {
+      title: "Suppliers",
+      component: <CorporateFareOutlined fontSize="medium" color="primary" />,
+    },
+    {
+      title: "Requests",
+      component: <SwapHorizOutlined fontSize="medium" color="primary" />,
     },
     {
       title: "Growth",
